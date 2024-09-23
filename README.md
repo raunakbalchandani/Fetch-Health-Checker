@@ -4,15 +4,15 @@ This project implements a Python program to monitor the health of a set of HTTP 
 
 # Table of Contents
 
-1. [Features](Features)
-2. [Pre-Requisites](Pre-Requisites)
-3. [Installation and Running the code](Setup)
-4. [Usage Example](Demo)
-5. [YAML Configuration](YAML)
-6. [Explaination of Availability Calculation](Calculation)
-7. [Future Scope: Monitoring and Managing Logs](Future)
-8. [Contributing](Contributing)
-9. [License](License)
+1. [Features](#Features)
+2. [Pre-Requisites](#Pre-Requisites)
+3. [Installation and Running the code](#Setup)
+4. [Usage Example](#Demo)
+5. [YAML Configuration](#YAML)
+6. [Explaination of Availability Calculation](#Calculation)
+7. [Future Scope: Monitoring and Managing Logs](#Future)
+8. [Contributing](#Contributing)
+9. [License](#License)
 
 
 # Features
