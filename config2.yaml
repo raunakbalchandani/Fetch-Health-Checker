@@ -1,0 +1,146 @@
+- name: Google Home Page
+  url: https://www.google.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: GitHub Home Page
+  url: https://www.github.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Microsoft Home Page
+  url: https://www.microsoft.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Example Post Endpoint
+  url: https://jsonplaceholder.typicode.com/posts
+  method: POST
+  headers: 
+    content-type: application/json
+    user-agent: health-monitor
+  body: '{"title": "foo", "body": "bar", "userId": 1}'
+
+- name: Non-existent Site 1
+  url: https://www.fakewebsite123456789.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Non-existent Site 2
+  url: https://www.somewebsite-that-doesnt-exist.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Fluctuating API
+  url: https://httpstat.us/503
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Fast API
+  url: https://httpstat.us/200
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Slow API (may fluctuate)
+  url: https://httpstat.us/200?sleep=1000
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Fake API (always down)
+  url: https://jsonplaceholder.typicode.fake
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Google Careers
+  url: https://careers.google.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Facebook Home Page
+  url: https://www.facebook.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Fluctuating GitHub API
+  url: https://api.github.com/emojis
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Amazon Home Page
+  url: https://www.amazon.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Stack Overflow Home Page
+  url: https://stackoverflow.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Twitter Home Page
+  url: https://www.twitter.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: LinkedIn Home Page
+  url: https://www.linkedin.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Instagram Home Page
+  url: https://www.instagram.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Fluctuating API (random status)
+  url: https://httpstat.us/200,503,404
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- name: Non-existent Site 3
+  url: https://nonexistentsite-fakeurl.com/
+  method: GET
+  headers: 
+    user-agent: health-monitor
+
+- headers: 
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch index page
+  url: https://fetch.com/
+  
+- headers: 
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch careers page
+  url: https://fetch.com/careers
+  
+- body: '{"foo":"bar"}'
+  headers: 
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: fetch some fake post endpoint
+  url: https://fetch.com/some/post/endpoint
+  
+- name: fetch rewards index page
+  url: https://www.fetchrewards.com/
+
+
