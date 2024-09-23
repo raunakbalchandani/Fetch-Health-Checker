@@ -61,7 +61,7 @@ This project implements a Python program to monitor the health of a set of HTTP 
 
 5. Once you have installed the dependencies, you can run the health checker program by providing the path to your YAML configuration file as an argument:
 
-    Run the following command: ```python health_checker.py /path/to/your/config.yaml```
+    Run the following command: ```python fetchtest.py /path/to/your/config.yaml```
 
     Replace "/path/to/your/config.yaml with the path where the yaml file is stored in your local machine
 
