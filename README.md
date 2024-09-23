@@ -6,13 +6,14 @@ This project implements a Python program to monitor the health of a set of HTTP 
 
 1. [Features](#Features)
 2. [Pre-Requisites](#Pre-Requisites)
-3. [Installation and Running the code](#installation-and-running-the-code)
-4. [Usage Example](#Demo)
-5. [YAML Configuration](#yaml-configuration)
-6. [Explaination of Availability Calculation](#explaination-of-availability-calculation)
-7. [Future Scope](future-scope)
-8. [Contributing](#Contributing)
-9. [License](#License)
+3. [Installation and Running the code](#Installation-and-Running-the-code)
+4. [Usage Example](#Usage-Example)
+5. [Sample YAML Configuration](#Sample-YAML-Configuration)
+6. [Explaination of Availability Calculation](#Explanation-of-Availability-Calculation)
+7. [Troubleshooting](#Troubleshooting)
+8. [Future Scope](#Future-Scope)
+9. [Contributing](#Contributing)
+10. [License](#License)
 
 
 # Features
@@ -36,7 +37,7 @@ This project implements a Python program to monitor the health of a set of HTTP 
    ```
    bash python -m ensurepip --upgrade
    
-# Installation & Running the code
+# Installation and Running the code
 
 1. Clone the repository to your local machine, run the following commands one by one in the terminal:
    ```git clone <repository-url>```
