@@ -6,11 +6,11 @@ This project implements a Python program to monitor the health of a set of HTTP 
 
 1. [Features](#Features)
 2. [Pre-Requisites](#Pre-Requisites)
-3. [Installation and Running the code](#Setup)
+3. [Installation and Running the code](#installation-and-running-the-code)
 4. [Usage Example](#Demo)
-5. [YAML Configuration](#YAML)
-6. [Explaination of Availability Calculation](#Calculation)
-7. [Future Scope: Monitoring and Managing Logs](#Future)
+5. [YAML Configuration](#yaml-configuration)
+6. [Explaination of Availability Calculation](#explaination-of-availability-calculation)
+7. [Future Scope](future-scope)
 8. [Contributing](#Contributing)
 9. [License](#License)
 
@@ -137,7 +137,7 @@ After each 15-second test cycle, the availability percentage is logged to the co
 
 - YAML Parsing Issues: Ensure your configuration file is correctly formatted as YAML. A small syntax error could prevent the program from parsing the file. Use a YAML linter if needed
 
-# Future Scope: Monitoring and Managing Logs
+# Future Scope
 
 In the future, to enhance monitoring and alerting for this health checker, we can integrate with AWS CloudWatch for real-time observability and automated alerts.
 
@@ -155,6 +155,10 @@ In the future, to enhance monitoring and alerting for this health checker, we ca
    - This helps track uptime and provides insights into performance issues over time.
 
 By leveraging AWS CloudWatch, we can set up a fully automated monitoring and alerting system, ensuring high reliability and proactive incident management.
+
+# Contributing
+
+Feel free to fork this repository and make pull requests. Contributions to improve the codebase and add new features are welcome. Please ensure that your contributions adhere to Python best practices.
 
 # License
 
